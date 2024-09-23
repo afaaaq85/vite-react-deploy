@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import a local font */
+@font-face {
+  font-family: "HelveticaNeueLT Com 55 Roman";
+  src: url("./assets/Fonts/Neue_Helvetica/HelveticaNeueLTCom-Roman.ttf")
+    format("truetype");
+}
+
+* {
+  font-family: "HelveticaNeueLT Com 55 Roman" !important;
+}
+
+.firm-text {
+  padding: 4px 2px 1px 2px;
+  background-color : #F4D3BE;
+  border-radius: 5px;
+}
+
+.soft-text {
+  padding: 4px 2px 1px 2px;
+  background-color : #A2C0D6;
+  border-radius: 5px;
+}
